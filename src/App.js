@@ -41,7 +41,7 @@ const App = () => {
                     ? (
                     <div className="container">
                         {movies.map((movie) => (
-                            <MovieCard movie={movie} />
+                            <MovieCard movie={movie} /> // movie is a prop
                         ))}
                     </div>
                     ) : (
