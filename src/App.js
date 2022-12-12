@@ -11,7 +11,7 @@ const App = () => {
 
     // fetch data from API as soon as component loads
     useEffect(() => {
-
+        searchMovies('Spiderman');
     }, []);
 
     return (
