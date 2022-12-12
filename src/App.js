@@ -6,7 +6,7 @@ import MovieCard from './MovieCard';
 const API_URL = 'http://www.omdbapi.com?apikey=96e2619f';
 
 const App = () => {
-    const [movies, setMovies] = useState([]); // useState is a state
+    const [movies, setMovies] = useState([]); // useState is a state, default values of movie set to empty array
 
     const searchMovies = async (title) => {
         const response = await fetch(`${API_URL}&s=${title}`); // call API
