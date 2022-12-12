@@ -6,7 +6,7 @@ const App = () => {
 
     const searchMovies = async (title) => {
         const response = await fetch(`${API_URL}&s=${title}`); // call API
-        const data = await response.json();
+        const data = await response.json(); // get data from API
     }
 
     // fetch data from API as soon as component loads
